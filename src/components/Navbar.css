@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive');
+
+.navContainer {
+    display: flex;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: #f6e5ff;
+    border-bottom: 1px solid black;
+    z-index: 10000;
+}
+
+.navNavigation {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .navNavigation {
+        display: flex;
+    }
+}
+
+.navLinks {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navBurger {
+    display: flex;
+    position: fixed;
+    top: 1.57rem;
+    right: 4.5rem;
+    width:30px;
+}
+
+.fa-moon{
+    margin-right:-30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navBurger {
+        display: none;
+    }
+}
+
+.navMob {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 2rem;
+    margin-top: 2rem;
+    background-color: #f6e5ff;
+    width: 100vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .navMob {
+        display: none;
+    }
+}
+
+.navMobUl {
+    flex-direction: row;
+}
+
+.list {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-text {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}

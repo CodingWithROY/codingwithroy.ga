@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+#footer {
+  background-color: #f6e5ff;
+  font-size: 17px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  align-items: center;
+  border-top:1px solid black;
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+}
+
+
+.fa {
+  color: black;
+  margin-right: 10px;
+  padding:0px 7px;
+}
+
+
+@media only screen and (max-width: 749px) {
+    #footer{
+        flex-direction: column;
+    }
+    .logobox{
+        margin-top:1.5rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+
+}

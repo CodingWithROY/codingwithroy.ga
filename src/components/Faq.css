@@ -1,0 +1,47 @@
+.main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.main h1{
+  font-weight: 600;
+}
+
+.accordion {
+  list-style: none;
+  margin:2rem;
+}
+
+.accordion_item {
+  border: 1px solid black;
+}
+
+.button {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 18px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.fa-solid{
+  margin:0 10px;
+}
+
+.answer {
+  padding: 20px;
+}
+
+.answer_wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
+}

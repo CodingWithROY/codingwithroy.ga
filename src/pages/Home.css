@@ -1,0 +1,42 @@
+.homeContent{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0rem;
+    margin:0px 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .homeContent {
+      line-height: 2rem;
+    }
+  }
+
+.homeTop{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.homeMiddle{
+    font-size: 1.2rem;
+}
+
+.homeBottom{
+    font-size: 1.2rem;
+    margin-top:2.5rem;
+}
+
+
+.homeBtn{
+    padding: 0.7rem 1.4rem;
+    background-color: blue;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:white;
+}
+
+.homeBtn:hover{
+    background-color: rgba(0, 0, 255, 0.7);
+}

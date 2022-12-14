@@ -1,0 +1,57 @@
+.contactMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contactSection {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    border-radius: 0.375rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactCard {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contactImage {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    width: 10rem;
+}
+
+
+@media (min-width: 640px) {
+    .contactSection {
+        width: 50%;
+    }
+
+    .card {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .contactCard {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .contactImage {
+        width: 13rem;
+    }
+}
